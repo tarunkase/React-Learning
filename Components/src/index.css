@@ -109,3 +109,15 @@ code {
   padding: 4px 8px;
   background: var(--code-bg);
 }
+
+
+
+.card{
+  background-color: red;
+  color: black;
+  font-family: 'Times New Roman', Times, serif;
+  padding: 20%;
+  margin: 5%;
+  border: solid rgb(185, 0, 0) 2px;
+  border-radius: 5%;
+}
