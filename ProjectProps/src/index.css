@@ -1,0 +1,84 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body{
+  font-family: 'Times New Roman', Times, serif;
+  background-color: #111;
+  
+}
+.parentCard{
+  display: inline-block;
+  flex-wrap: wrap;
+}
+
+.card{
+  height: 350px;
+  width: 280px;
+  background-color: #ffff;
+  border-radius: 30px;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  margin: 15px;
+  
+}
+
+
+.top{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  
+  border-bottom: #d3d3d3 solid 2px;
+  border-radius: 8px;
+}
+.top img{
+  height: 40px;
+  width: 40px;
+  border-radius: 50%;
+  border: solid #777777 1px;
+  padding: 5px;
+}
+.top button{
+  display: flex;
+  align-items: center;
+  background-color: #d6d6d6;
+  border: none;
+  border-radius: 5px;
+  color: black;
+  font-size: 15px;
+  padding: 4px 8px;
+  background-color: transparent;
+  color: #b1b1b1;
+}
+
+.middle h3{
+  font-weight: light;
+}
+.middle span{
+  color: rgb(154, 154, 154);
+  font-size: 12px;
+  font-weight: 500;
+}
+
+.bottom{
+  border-top: #d3d3d3 solid 2px;
+  border-radius: 8px;
+  /* margin-top: 10px; */
+  display: flex;
+  justify-content: space-between;
+  /* padding: 10px ; */
+}
+.bottom button{
+  height: fit-content;
+  margin: 10px;
+  padding: 10px;
+  background-color: black;
+  color: white;
+  border: none;
+  border-radius: 5px;
+}
