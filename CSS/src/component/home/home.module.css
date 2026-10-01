@@ -1,0 +1,15 @@
+.home{
+    color: black;
+    width: fit-content;
+    height: 50vh;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+}
+.btn{
+    margin: 10px 20px;
+    padding: 10px 20px;
+    border-radius: 10px;
+    color: khaki;
+}

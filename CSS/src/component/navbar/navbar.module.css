@@ -1,0 +1,15 @@
+.navbar{
+    padding: 20px 50px;
+    border: solid white 2px;
+    color: black;
+    width: 100%;
+    height: fit-content;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.btn{
+    border: none;
+    border-radius: 10px;
+    color: rgb(0, 255, 238);
+}
