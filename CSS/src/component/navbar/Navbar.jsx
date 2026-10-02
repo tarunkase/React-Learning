@@ -2,8 +2,9 @@ import style from './navbar.module.css'
 
 function Navbar() {
   return (
-    <>
-    <div className={style.navbar}>
+    <>  
+    {/* //here we have used Tailwind CSS classes and module-css also in below class  */}
+    <div className='p-8 rounded-4xl align-center justify-center flex-col  bg-amber-200 text-blue-400'>
         <h3>
             Navbar
         </h3>
