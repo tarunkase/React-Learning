@@ -1,6 +1,7 @@
 import { useState } from 'react'
 import './App.css'
 import UseState from './useState/UseState'
+import LikeButton from './useState/LikeButton'
 
 function App() {
   const [count, setCount] = useState(0)
@@ -19,6 +20,7 @@ function App() {
 
 
         <UseState />
+        <LikeButton />
       </section>
 
     </>
