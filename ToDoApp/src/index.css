@@ -1,1 +1,9 @@
 @import "tailwindcss";
+body{
+    /* background-color: rgb(245, 245, 245); */
+}
+
+#del{
+    padding: 2px;
+    /* color: #fff8ec; */
+}
